@@ -1,0 +1,25 @@
+{
+    "name": "pereira/blog",
+    "description": "",
+    "authors": [
+        {
+            "name": "Pereira criou de test",
+            "email": "gugupereira123@hotmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Son\\Blog\\Providers\\BlogServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Son\\Blog\\": ""
+        }
+    }
+}
